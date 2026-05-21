@@ -220,17 +220,13 @@ This is useful for quick document comparison, but it should be treated as an ass
 - Do the two documents agree about deployment risks?
 
 More examples are in `data/sample_prompts.md`.
-
 ## Screenshots
 
-Add screenshots here after running locally:
+<img width="1440" height="960" alt="04_conflict_checker" src="https://github.com/user-attachments/assets/ab309382-91d9-4982-93ae-26a26283b657" />
+<img width="1440" height="960" alt="01_upload_and_index" src="https://github.com/user-attachments/assets/3b8b4588-70a6-4c6c-abbf-2018f643a4bf" />
+<img width="1440" height="960" alt="02_question_answer_with_citations" src="https://github.com/user-attachments/assets/a3894aa4-f8ee-4842-89d0-e741a1bd20a6" />
+<img width="1440" height="960" alt="03_retrieved_chunks_debug" src="https://github.com/user-attachments/assets/dee8f819-07a4-4f89-8635-0e368d8c8de8" />
 
-```text
-screenshots/upload_and_index.png
-screenshots/question_answer_with_citations.png
-screenshots/retrieved_chunks_debug.png
-screenshots/conflict_checker.png
-```
 
 ## Tradeoffs
 
@@ -278,4 +274,6 @@ GET /sources
 GET /health
 ```
 
-This is intentionally lightweight. It reuses the same ingestion, retrieval, and conflict-checking functions as the UI.
+## Acknowledgment
+
+This project was built and structured with the assistance of OpenAI Codex for code generation, debugging support, and implementation guidance.
